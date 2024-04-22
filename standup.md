@@ -1,4 +1,4 @@
-# Software Team Standup - <Insert Date>
+# Software Team Standup - Insert Date
 ## Attendees
 - Person1
 - Person2
