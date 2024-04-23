@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css">
     <title>CSE 110 Team Meeting Minutes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9+Charted&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Team StandUp</h1>
+
     <h2>Meeting Topic: Weekly Progress</h2>
     <h3>Date: April 15th</h3>
 
     <h2>Attendance List</h2>
-    <ul>
-        <li>Gautham Prabhakar</li>
-        <li>John Doe</li>
-        <li>Tony Stark</li>
-        <li>Frank Reynolds</li>
-        <li>Anikin Skywalker</li>
-        <li>Jon Snow</li>
+    <ul class="name-list">
+        <li class="gautham">Gautham Prabhakar</li>
+        <li class="john">John Doe</li>
+        <li class="tony">Tony Stark</li>
+        <li class="frank">Frank Reynolds</li>
+        <li class="ani">Anikin Skywalker</li>
+        <li class="jon">Jon Snow</li>
     </ul>
 
     <h2>Agenda</h2>
-    <ol>
+    <ol class="agenda-list">
         <li>Introduction of new team members</li>
+        <li>Project Timeline</li>
         <li>Gautham's updates on the week and what he will do the coming week</li>
         <li>Quesions from other team members</li>
         <li>Johns's updates on the week and what he will do the coming week</li>
@@ -38,18 +44,74 @@
         <li>Assigning tasks for next meeting</li>
     </ol>
 
+    <h2>Project Timeline</h2>
+    <div class="timeline">
+        <div class="timeline-item milestone" style="grid-column: 1;">Project Kickoff - April 24th</div>
+        <div class="timeline-item milestone" style="grid-column: 1;">Meeting in Conference Room</div>
+        <div class="timeline-item deadline" style="grid-column: 2;">Phase 1 Deadline - May 2nd</div>
+        <div class="timeline-item deadline" style="grid-column: 2;">Submit Report to Gautham's Desk</div>
+        <div class="timeline-item deadline" style="grid-column: 3;">Phase 2 Deadline - May 17th</div>
+        <div class="timeline-item deadline" style="grid-column: 3;">Submit Report to Gautham's Desk</div>
+        <div class="timeline-item milestone" style="grid-column: 4;">Project Completion - May 30th</div>
+    </div>
+
     <h2>Unfinished Business</h2>
-    <p>Discussion about new project assigned and team building event.</p>
+    <p class="important-para">Discussion about new project assigned and team building event.</p>
 
     <h2>New Business</h2>
-    <p>Discussion about project timeline as well as improved engineering practices.</p>
+    <div id="business">
+        <p>Discussion about project timeline as well as improved engineering practices.</p>
+    </div>
 
-    <h2>Comments / Questions / Concerns</h2>
-    <p>Gautham asked about marketing project to customers and timeline on that. We sent out emails to prospective clients to schedule marketing meetings.</p>
+    <h2>Comments/Questions/Concerns</h2>
+    <div class="comments-container">
+        <div class="comment">
+            <p>Comments</p>
+            <li>No additional comments.</li>
+        </div>
+        <div class="question">
+            <p>Questions</p>
+            <li>Gautham asked about marketing project to customers and timeline on that. We sent out emails to prospective clients to schedule marketing meetings.</li>
+        </div>
+        <div class="concern">
+            <p>Concerns</p>
+            <li>John was complaining about Christmas bonus.</li>
+        </div>
+    </div>
+
+
+    
+    <h2>This Week Meeting Schedule</h2>
+    <div class="day">
+        <h3>Monday</h3>
+        <ul class="standup-time">
+            <li>10am - Standup</li> 
+            <li>12pm - Software x Hardware meeting</li>
+        </ul>
+
+
+    </div>
+    <div class="day">
+        <h3>Wednesday</h3>
+        <ul class="standup-time">
+            <li>10am - Standup</li> 
+        </ul>
+
+
+    </div>
+    <div class="day">
+        <h3>Friday</h3>
+        <ul class="standup-time">
+            <li>10am - Standup</li> 
+            <li>2pm - Marketing meeting with clients</li>
+        </ul>
+
+
+    </div>
 
     <h2>Diagrams & Presentations</h2>
-    <img src="project_timeline.png" alt="Project Timeline">
-    <img src="stand_up.png" alt="Gautham's Presentation">
+    <img src="project_timeline.png" alt="Project Timeline" width="600" height="400">
+    <img src="stand_up.png" alt="Gautham's Presentation" width="600" height="400">
 
     <h2>Audio Recording</h2>
     <audio controls>
